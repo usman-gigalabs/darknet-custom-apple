@@ -32,6 +32,7 @@ vcpkg_installed/
 !build/darknet/YoloWrapper.cs
 .fuse*
 *.weights
+*.conv*
 build/*.cmake
 build/*.ninja
 build/*.txt
@@ -44,6 +45,9 @@ build/Makefile
 */vcpkg-manifest-install.log
 build.log
 __pycache__/
+
+custom_cfg/obj/*
+custom_dataset/*
 
 # OS Generated #
 .DS_Store*

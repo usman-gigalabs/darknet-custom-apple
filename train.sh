@@ -1,0 +1,1 @@
+./darknet detector train custom_cfg/custom.data custom_cfg/yolov4-tiny-custom.cfg custom_cfg/yolov4-tiny.conv.29 -map

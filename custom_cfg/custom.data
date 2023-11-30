@@ -1,0 +1,6 @@
+classes= 2
+train  = ./custom_cfg/train.txt
+valid = ./custom_cfg/valid.txt
+names =./custom_cfg/custom.names
+backup = ./backup
+eval=coco
